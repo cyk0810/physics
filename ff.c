@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+#define M_PI  3.1415926535
+int main() {
+    double angle_degree, angle_radian;
+
+    printf("각도를 입력하세요: ");
+    scanf_s("%lf", &angle_degree);
+
+    angle_radian = angle_degree * M_PI / 180.0;
+
+    double cosine = cos(angle_radian);
+    double sine = sin(angle_radian);
+    double tangent = tan(angle_radian);
+
+    printf("\n입력한 각도: %.2f 도\n", angle_degree);
+    printf("angle_radian : %.10f\n", angle_radian);
+    printf("cos : %.10f\n", cosine);
+    printf("sin : %.10f\n", sine);
+    printf("tan : %.10f\n", tangent);
+}
