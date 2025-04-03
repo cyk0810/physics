@@ -5,7 +5,7 @@ int main() {
     double x, y;
     double r, theta_radian;
 
-    printf("x, y °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+    printf("x, y Â°ÂªÃ€Â» Ã€Ã”Â·Ã‚Ã‡ÃÂ¼Â¼Â¿Ã¤: ");
     scanf_s("%lf %lf", &x, &y);
 
     r = sqrt(x * x + y * y);
