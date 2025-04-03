@@ -4,7 +4,7 @@
 int main() {
     double angle_degree, angle_radian;
 
-    printf("°¢µµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+    printf("ê°ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
     scanf_s("%lf", &angle_degree);
 
     angle_radian = angle_degree * M_PI / 180.0;
@@ -13,7 +13,7 @@ int main() {
     double sine = sin(angle_radian);
     double tangent = tan(angle_radian);
 
-    printf("\nÀÔ·ÂÇÑ °¢µµ: %.2f µµ\n", angle_degree);
+    printf("\nì…ë ¥í•œ ê°ë„: %.2f ë„\n", angle_degree);
     printf("angle_radian : %.10f\n", angle_radian);
     printf("cos : %.10f\n", cosine);
     printf("sin : %.10f\n", sine);
